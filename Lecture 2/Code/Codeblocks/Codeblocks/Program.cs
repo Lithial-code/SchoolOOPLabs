@@ -7,9 +7,14 @@ namespace Codeblocks
         static void Main(string[] args)
         {
 
+           
+
+        }
+        public void pascalsTriangle()
+        {
             int rows = 8, val = 1, blank, i, j;
             Console.WriteLine("Pascal's triangle");
-            
+
             //loop for rows
             for (i = 0; i < rows; i++)
             {
@@ -29,9 +34,7 @@ namespace Codeblocks
                 }
                 Console.WriteLine();
             }
-
         }
-
         public void diamond()
         {
             int num, space;
